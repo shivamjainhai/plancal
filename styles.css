@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.maincont{
+    display: flex;
+    background-color: rgb(15, 15, 15);
+}
+
+
+.left{
+    width:30%;
+    background-color: rgb(15, 15, 15);
+}
+
+.current-date-bar{
+    height: 3rem;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-holder-view{
+    margin-top: 2.2%;
+    background-color: rgb(26, 24, 24);
+    height: calc(100% - 3rem);
+}
+
+
+[data-weekid="5"]{
+    visibility: collapse;
+}
+
+
+
+
+
+/* right section */
+
+.right{
+    width:70%;
+    background-color: rgb(15, 15, 15);
+}
+
+.month-bar{
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.week-bar{
+    display: flex;
+    justify-content: space-around;
+    height: 2rem;
+    background-color: blueviolet;
+    /* margin: 1; */
+}
+
+.day-bar-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(133, 133, 133); */
+    /* margin-left:1% ; */
+    /* margin-right: 1%; */
+    width: calc((98%)/7);
+
+}
+
+.weeknumber{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.caldate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid ;
+    width: calc((98%)/7);
+    height: 3rem;
+    /* height: calc((98%)/5); */
+    /* margin-left:1% ; */
+    /* margin-right: 1%; */
+}
+
+.caldate:hover{
+    background-color: rgb(53, 51, 53);
+    border: 1px solid rgb(247, 247, 247);
+    color:rgb(177, 10, 199);
+}
+
